@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>JustBrowsing LiveCD</title>
+<link href="data:image/x-icon;base64,
+iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QA/wD/AP+gvaeTAAAACXBI
+WXMAABcSAAAXEgFnn9JSAAAAB3RJTUUH3QITETEGaMJlgAAAA3VJREFUOMtNwUtsVFUcB+Df/5xz
+X/Ni2jL0kU5rwWKsrcWo2EIrUYNKTFQSi49oYjSyUhNdsDBx484FogkLTYzxscAQE1YSkkpAQrCF
+UAOktqZqoa+ZcUo70zt37vOc49bvI/zPpwDauh527t3dP961d2Aiu7NrUKQtW2lZqU7NX1i/ef1U
+OLex+szd6xIAJkd3gfTZF4Bux7h4Yl6UfmyMFfsHj/cdOTDU+mgRZsoBtIIOYzQrNaxMXkPgV0/4
+jaXPx85eXQIA4U/9KZIwfsOe80e3FzomMm2t27zVq9oyVoj1DEHLBDKMIeu+5iJN+QH6IB01npjO
+DB177PStSVp4NuPwFLsibXNPorPwPUtD16jrgaNw8jlQHMCvR6iveXBXtrTodqnvfRu3z8xttD/V
+NsLfHLXMdJZ9Ihuxo1SoYTQRa0l8vYLESMAGR8G664g6F6B6mxQ7VZ3bqZDO81Tu/hQTxc7UxNY/
+bkvoap0ARGmCmU3DGhnGpfwYLu05jOFtJp6zTyO/fAyi1CBD9iDV1wMVbu4XADsSuhqSGGnOQKYB
+555OnGQv4yf7ILaXJM7P1DAZHsS348/D0l8j8hiQCaDK5QdZUFctiWZgtoCnCKU7Hn5IXsG5rSIa
+FR935kPUbtXx8/klTK29CKE0jNY0SDd1WGoyEZSDbKIIpsVRW21CNANUQgs3/t6BdGoDQ7lVLKoC
+kk0XlU0ASQDt1QFbwRA+xPqKf1nZxqBgDF0FIKOBt2vHcbjtDISKUAhrOMVewnfW49jrXEBctaE8
+F3IjgF8OwA+aIOXjNWFznW23yM5wuP96qM6WUa3G+PjmIUz743h3QuLpu+8hpgwSL0aw0qD6pp7l
+bYpKBalfbfq6xckZmrI25XbYWH1oGLOPvIP8QDtymV+xv/QR+nMcEXI6WquhuaGovNz/JX3RzSnx
+9OtmjO87ijZ6d1s6lRfkWBpVFuH3IEEqkXiylaAE16LFROJHpPJWWew7MMLPbWn0WvSXSZSJXDkS
+NyWZHJoLRmnNcB8jFBlHFDJwQQSuSabodphWb+2auDHDAWAm1HFk8CkSYNlQ7ovqCclAwSAF0rGG
+kkRcIuZAeV0s/vYHO3ro5NYvAMALFqEpgeVIBYsKV+YTXOy2yDFIdcSBtFWimEvw1zmfXfDxzVfT
+0YefXcvPAC4A4D+mw6lc0pHKywAAAABJRU5ErkJggg==
+" rel="icon" type="image/x-icon" />
+<link rel="stylesheet" type="text/css" media="screen" href="style.css">
+<script src="date.js"></script>
+
+<script type="text/javascript">
+function timedate() {
+	var date = Date.today().toString('ddd MMM d, yyyy');
+	var now = new Date();
+	var hh = now.getHours();
+	var xm  = (hh > 12) ? "PM" : "AM";
+	var mm = now.getMinutes();
+	if(hh > 12) { hh -= 12; }
+	if(hh == 0) { hh = 12; }
+	if(hh < 10) { hh = "0" + hh; }
+	if(mm < 10) { mm = "0" + mm; }
+	var clock = hh + ":" + mm + " " + xm;
+
+	document.getElementById('date').innerHTML = date;
+	document.getElementById('clock').innerHTML = clock;
+	setTimeout('timedate()',500);
+}
+</script>
+
+</head>
+<body>
+<a href="https://github.com/justbrowsing/justbrowsing"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub"></a>
+
+<div id="menubar">
+<table width="100%"><tr>
+<td width="50%" style="background: #e6e5e4">
+<font style="font-family:Arial">
+&nbsp;&nbsp;&nbsp;&nbsp;<u>F</u>ile&nbsp;&nbsp;&nbsp;&nbsp;<u>E</u>dit&nbsp;&nbsp;&nbsp;&nbsp;<u>V</u>iew&nbsp;&nbsp;&nbsp;&nbsp;
+Hi<u>s</u>tory&nbsp;&nbsp;&nbsp;&nbsp;<u>B</u>ookmarks&nbsp;&nbsp;&nbsp;&nbsp;<u>T</u>ools&nbsp;&nbsp;&nbsp;&nbsp;<u>H</u>elp
+</font></td>
+<td width="50%" class="chrome-bar" align="right">
+<img  style="align:right" src="chrome-actions.png">
+</td></tr></table>
+</div>
+
+<div id="navtoolbar">
+<table width="100%"><tr>
+<td width="50%" style="background: #f1f1f0">
+<img src="nav-arrows.png" />&nbsp;&nbsp;&nbsp;&nbsp;
+<input type="text" name="addressbar" value="Go to a Website" size="120" readonly></input>
+</td></tr></table>
+</div>
+
+<div id="mainarea" align="center">
+<h1>Welcome.</h1><br>
+<img src="justbrowsing-text.png" /><br>
+<h1>It's that simple.</h1>
+<br><br><br>
+
+<table><tr>
+<td style="vertical-align:top">
+<h2>Choose Firefox or Chrome - whichever is more comfortable to you. 
+ No logins, no malware, no sluggish boot. 
+ Designed with old machines in mind.
+ A calculator, text editor, timer and more are always one click away.
+ Your privacy protected - a lockscreen to keep out intruders
+ and your history is erased when you turn off the computer.
+</h2></td>
+<td><h2 align="middle">Download now:</h2><br>
+<a href="#"><div class="cdrom"></div></a></td>
+<td style="vertical-align:top"><h2>JustBrowsing is built on the excellent ArchLinux, a rolling-release distribution,
+ which keeps it always up-to-date. It uses the light-weight window manager, i3,
+ and keeps the experience uncluttered. A bottom panel, adeskbar, displays the time and date,
+ and has all the settings visible, no hunting around. Free and open source.</h2></td>
+</tr>
+</table>
+
+<br><br><br><br>
+<a href="https://www.archlinux.org/"><img src="jb-archtux.png" /></a>
+</div>
+<br><br><br><br>
+
+
+<!-- http://www.wickham43.net/headerfooterfix.php -->
+<div id="footerwrap">
+<div id="footer" class="gradient">
+<table width="100%"><tr>
+
+<td class="adeskbar" align="left">
+<a href="https://github.com/justbrowsing/justbrowsing-chrome-profile" title="Google Chrome web-browser" class="tooltip1">
+<img src="chrome24.png" /></a>
+<a href="https://github.com/justbrowsing/justbrowsing-firefox-profile" title="Mozilla Firefox web-browser" class="tooltip1">
+<img src="firefox24.png" /></a>
+&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;
+<a href="https://github.com/justbrowsing/justbrowsing-adeskbar" title="adeskbar panel" class="tooltip1">
+<img src="adeskbar.png" /></a>
+<a href="https://github.com/justbrowsing/justbrowsing-config-files" title="i3 Window Manager" class="tooltip1">
+<img src="i3.png" /></a>
+</td>
+
+<td class="adeskbar" align="center">
+<a href="http://justbrowsing.github.com/justbrowsing-notes/" title="Notes web-app" class="tooltip1">
+<img src="notes24.png" /></a>&nbsp;
+<a href="http://justbrowsing.github.com/justbrowsing-calculator/" title="Calculator web-app" class="tooltip1">
+<img src="calc24.png" /></a>&nbsp;
+<a href="http://justbrowsing.github.com/justbrowsing-timers/" title="Timers web-app" class="tooltip1">
+<img src="timer24.png" /></a>&nbsp;
+<a href="https://github.com/justbrowsing/justbrowsing-email" title="Email web-app" class="tooltip1">
+<img src="email24.png" /></a>&nbsp;
+<a href="http://justbrowsing.github.com/justbrowsing-wageclock/" title="Wageclock web-app" class="tooltip1">
+<img src="wageclock24.png" /></a>&nbsp;
+</td>
+
+<td class="adeskbar" align="right">
+<a href="https://aur.archlinux.org/packages/pnmixer/" title="pnmixer volume applet" class="tooltip2">
+<img src="pnmixer24.png" /></a>&nbsp;
+<a href="https://aur.archlinux.org/packages/network-manager-applet-gtk2/" title="networkmanager networking applet" class="tooltip2">
+<img src="nmapplet24.png" /></a>&nbsp;
+&nbsp;&nbsp;
+<a href="" title="Date" class="tooltip2">
+<font id="date">Mon Jan 28, 2013</font></a>
+&nbsp;&nbsp;&nbsp;
+<a href="" title="Time" class="tooltip2">
+<font id="clock">04:24 PM</font></a>
+&nbsp;&nbsp;&nbsp;
+
+<a href="#lockscreen" title="Lock screen" class="tooltip2">
+<img src="lock24.png" /></a>&nbsp;
+<a href="" title="Reboot" class="tooltip2">
+<img src="reboot24.png" /></a>&nbsp;
+<a href="" title="Shutdown" class="tooltip2">
+<img src="shutdown24.png" /></a>&nbsp;
+</td>
+
+</tr></table>
+</div>
+</div>
+
+<div class="lb" id="lockscreen"><a href="">
+<div id="wbar" align="left" class="wbar"><div class="wbar-shutdown"></div></div>
+<img src="lockscreen.png" />
+</a></div>
+
+
+<script type="text/javascript">
+timedate();
+</script>
+</body></html>

@@ -1,0 +1,280 @@
+/* http://www.wickham43.net/headerfooterfix.php */
+
+* {
+	vertical-align:middle;
+}
+
+body,html{
+	margin:0;
+	padding:0;
+}
+body {
+	min-width:720px; /* Prevent content from becoming unreachable in Gecko */
+}
+/* position:absolute for all browsers - the whole page scrolls */
+div#headerwrap {
+	position:absolute;
+	width:100%;
+	top:0;
+	left:0;
+	height:100px;
+}
+/* position:fixed for modern browsers - header and footer do not scroll */
+body>div#headerwrap {
+	position:fixed;
+}
+div#header {
+	height:100px;
+	width:100%;
+	margin:0 auto;
+}
+/* set a left margin to compensate for IE/Win always making room for a scrollbar */
+div#middlewrap {
+/* set left margin and bottom padding for IE5/Win */
+	padding:50px 0 0 0;
+	margin-left:0;
+/* set left margin and bottom padding for others */
+	voice-family: "\"}\""; 
+	voice-family:inherit;
+	margin-left:16px;
+	padding-bottom:50px;
+}
+/* set left margin for modern browsers */
+body>div#middlewrap {
+	margin-top: -12px;
+	margin-left:0;
+}
+div#middle {
+	width:100%;
+	margin:0 auto;
+}
+div#sidebar {
+	width:180px;
+	float:left;
+}
+div#content {
+	padding:0 10px;
+	margin-left:180px;
+}
+/* no positioning for IE5/Win - the whole page scrolls */
+div#footerwrap {
+	width:100%;
+	position:absolute;
+	bottom:0;
+	left:0;
+	height:30px;
+	border: 2px solid #000;
+	border-bottom: 4px solid #000;
+}
+body>div#footerwrap {
+	position:fixed;
+}
+div#footer {
+	height:30px;
+	width:100%;
+	margin:0 auto;
+}
+
+/* Styling rules to make this demo page look nice. */
+body,
+html{
+	font-family:"Trebuchet MS", Georgia, Verdana, serif;
+	background:#e9e9e2;
+}
+h1 {
+	font-size: 60px;
+}
+h2 {
+	font-size: 30px;
+	font-family: Times New Roman;
+	line-height: 60px;
+}
+
+div#header {
+	background:#de7009;
+	color:#eeeeee;
+}
+div#middle,
+div#sidebar {
+	background:#eeeeef;
+}
+div#content {
+	background:#fffffe;
+}
+div #footer p {
+	margin:0;
+	padding:0;
+	text-align:center;
+}
+div#footer a {
+	color:#fff;
+}
+
+p {
+	margin-bottom:0;
+	font-size:0.8em;
+	line-height:1.4em;
+}
+pre {
+	font-size:0.9em;
+	line-height:1.4em;
+}
+ul {
+	font-size:0.8em;
+	line-height:1.4em;
+}
+hr { border-style: solid; color: #de7008; margin-top: 10px; }
+.code { font-family: courier, monospace; }
+a { text-decoration: none ; }
+.link a:link { color: #de7008; font-weight: bold; text-decoration: none; border-bottom: 1px dotted;  }
+.link a:visited { color: #de7008; font-weight: bold; text-decoration: none; border-bottom: 1px dotted; }
+.link a:hover { color: #335500; font-weight: bold; text-decoration: none; }
+.link a:active { color: green; font-weight: bold; text-decoration: none; border-bottom: 1px dotted;  }
+
+
+.gradient {
+	background: rgb(59,51,50); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(59,51,50,1) 0%, rgba(32,32,32,1) 4%, rgba(32,32,32,1) 21%, rgba(3,3,3,1) 100%); /* FF3.6+ */
+	background: -webkit-linear-gradient(top,  rgba(59,51,50,1) 0%,rgba(32,32,32,1) 4%,rgba(32,32,32,1) 
+		21%,rgba(3,3,3,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: linear-gradient(to bottom,  rgba(59,51,50,1) 0%,rgba(32,32,32,1) 4%,rgba(32,32,32,1) 21%,rgba(3,3,3,1) 100%); /* W3C */
+
+}
+
+.chrome-bar {
+	background: #595959; /* Old browsers */
+	background: -moz-linear-gradient(top, #595959 0%, #9db0c9 3%, #7e98b8 5%, #6d8aae 35%, #6b88ad 40%, #6b88ad 95%, #607b9c 98%, #4b5f79 100%); /* FF3.6+ */
+	background: -webkit-linear-gradient(top, #595959 0%,#9db0c9 3%,#7e98b8 5%,#6d8aae 35%,#6b88ad 40%,#6b88ad 95%,#607b9c 98%,#4b5f79 100%); /* Chrome10+,Safari5.1+ */
+	background: linear-gradient(to bottom, #595959 0%,#9db0c9 3%,#7e98b8 5%,#6d8aae 35%,#6b88ad 40%,#6b88ad 95%,#607b9c 98%,#4b5f79 100%); /* W3C */
+}
+
+.adeskbar {
+	width: 33%;
+}
+
+#date, #clock {
+	font-family: Arial; 
+	font-weight: bold;
+}
+
+#date {
+	color:#eee; 
+	font-size: 12px;
+}
+
+#clock {
+	color:#B5B5B5; 
+	font-size: 14px;
+}
+
+/* http://www.webdesignerdepot.com/2012/11/how-to-create-a-simple-css3-tooltip/ */
+.tooltip1, .tooltip2 {
+	display: inline;
+	position: relative;
+}
+
+.tooltip1:hover:after {
+	background: #333;
+	background: rgba(0,0,0,.8);
+	border-radius: 5px;
+	bottom: 26px;
+	color: #fff;
+	content: attr(title);
+	left: 20%;
+	min-width: 125px;
+	padding: 5px 15px;
+	position: absolute;
+	z-index: 98;
+}
+
+.tooltip2:hover:after {
+	background: #333;
+	background: rgba(0,0,0,.8);
+	border-radius: 5px;
+	bottom: 26px;
+	color: #fff;
+	content: attr(title);
+	right: 20%;
+	padding: 5px 15px;
+	position: absolute;
+	z-index: 98;
+}
+
+.tooltip1:hover:before {
+	border: solid;
+	border-color: #333 transparent;
+	border-width: 6px 6px 0 6px;
+	bottom: 20px;
+	content: "";
+	left: 50%;
+	position: absolute;
+	z-index: 99;
+}
+
+.tooltip2:hover:before {
+	border: solid;
+	border-color: #333 transparent;
+	border-width: 6px 6px 0 6px;
+	bottom: 20px;
+	content: "";
+	right: 50%;
+	position: absolute;
+	z-index: 99;
+}
+
+/* http://www.htmlstack.com/lighterbox */
+.lb
+{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: none;
+	z-index: 999;
+	background: #fff;
+}
+
+.lb a
+{
+	display: table-cell;
+	vertical-align: top;
+	text-align: center;
+}
+
+.lb img
+{
+	padding: 5px 5px 5px 5px;
+}
+
+.lb:target {
+
+	display: table;
+	height:100%
+}
+
+.wbar {
+	top: 0;
+	background: #000;
+}
+
+/* http://stackoverflow.com/questions/10202641/how-to-make-image-hover-in-css */
+.wbar-shutdown {
+    background:url(wbar-state1.png) no-repeat 0 0;
+    width:199px;
+    height:74px;
+}
+
+.wbar-shutdown:hover {
+    background:url(wbar-state2.png) no-repeat 0 0;
+}
+
+.cdrom {
+    background:url(blankcd.png) no-repeat 0 0;
+    width:453px;
+    height:453px;
+}
+
+.cdrom:hover {
+    background:url(download.png) no-repeat 0 0;
+}
