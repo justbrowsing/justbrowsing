@@ -1,6 +1,6 @@
 /* http://www.wickham43.net/headerfooterfix.php */
 
-* {
+.adeskbar, img {
 	vertical-align:middle;
 }
 
@@ -78,7 +78,7 @@ div#footer {
 /* Styling rules to make this demo page look nice. */
 body,
 html{
-	font-family:"Trebuchet MS", Georgia, Verdana, serif;
+	font-family: serif;
 	background:#e9e9e2;
 }
 h1 {
@@ -259,16 +259,6 @@ a { text-decoration: none ; }
 }
 
 /* http://stackoverflow.com/questions/10202641/how-to-make-image-hover-in-css */
-.wbar-shutdown {
-    background:url(wbar-state1.png) no-repeat 0 0;
-    width:199px;
-    height:74px;
-}
-
-.wbar-shutdown:hover {
-    background:url(wbar-state2.png) no-repeat 0 0;
-}
-
 .cdrom {
     background:url(blankcd.png) no-repeat 0 0;
     width:453px;
