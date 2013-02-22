@@ -2,7 +2,10 @@ justbrowsing
 ============
 Homepage: http://justbrowsing.github.com/justbrowsing/
 
+Download latest ISO: https://sourceforge.net/projects/justbrowsing/files/
+
 List of repositories: https://github.com/justbrowsing?tab=repositories
+-------------------------
 
 Development:
 * https://github.com/justbrowsing/justbrowsing-artwork
