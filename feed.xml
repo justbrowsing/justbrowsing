@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+<atom:link href="http://justbrowsing.info/feed.xml" rel="self" type="application/rss+xml" />
+<title>Just Browsing Changelog</title>
+<link>http://justbrowsing.info</link>
+<description>Changelog for the JustBrowsing LiveCD project</description>
+<lastBuildDate>Fri, 29 Mar 2013 19:00:00 GMT</lastBuildDate>
+<language>en-us</language>
+<item>
+<title>2013-03-29 (0.3-1)</title>
+<link>https://github.com/justbrowsing/justbrowsing-changelog#03-1</link>
+<guid>https://github.com/justbrowsing/justbrowsing-changelog#03-1</guid>
+<pubDate>Fri, 29 Mar 2013 19:00:00 GMT</pubDate>
+<description>Changelog:&lt;br&gt;
+* Added "More In Content UI" Firefox addon&lt;br&gt;
+* Froze linux kernel to 3.7.10 until 3.8+ screen resolution bug fixed upstream&lt;br&gt;
+* Updated to latest packages (wayland pulled in)&lt;br&gt;
+&lt;br&gt;
+Feature To-do:&lt;br&gt;
+* Replace buggy "Offline QR generator" addon with qr-send script&lt;br&gt;
+* Personas?&lt;br&gt;
+* Add bookmarks: jolicloud, rollapp, pixlr, draftin ?&lt;br&gt;
+* Test more addons&lt;br&gt;
+* Try to get radiotray working</description>
+</item>
+<item>
+<title>2013-02-21 (0.3-0)</title>
+<link>https://github.com/justbrowsing/justbrowsing-changelog#03-0</link>
+<guid>https://github.com/justbrowsing/justbrowsing-changelog#03-0</guid>
+<pubDate>Thu, 21 Feb 2013 12:00:00 GMT</pubDate>
+<description>Changelog:&lt;br&gt;
+* First public release&lt;br&gt;
+* Uploaded ISO to SourceForge&lt;br&gt;
+* A lot more added to github repos&lt;br&gt;
+* Updated to latest</description>
+</item>
+<item>
+<title>2013-02-19 (0.2-7)</title>
+<link>https://github.com/justbrowsing/justbrowsing-changelog#02-7</link>
+<guid>https://github.com/justbrowsing/justbrowsing-changelog#02-7</guid>
+<pubDate>Tue, 19 Feb 2013 12:00:00 GMT</pubDate>
+<description>Changelog:&lt;br&gt;
+* Fixed ethernet bug&lt;br&gt;
+* Released source to github&lt;br&gt;
+&lt;br&gt;
+Feature to-do:&lt;br&gt;
+* Release more to github&lt;br&gt;
+* Upload ISO to sourceforge</description>
+</item>
+<item>
+<title>2013-02-17 (0.2-6)</title>
+<link>https://github.com/justbrowsing/justbrowsing-changelog#02-6</link>
+<guid>https://github.com/justbrowsing/justbrowsing-changelog#02-6</guid>
+<pubDate>Sun, 17 Feb 2013 12:00:00 GMT</pubDate>
+<description>Changelog:&lt;br&gt;
+* Upgrade to kernel 3.7.9&lt;br&gt;
+* Set ui.allow_platform_file_picker to false in Firefox&lt;br&gt;
+* Added bookmark: http://www.google.com/insidesearch/tipstricks/basics.html&lt;br&gt;
+* Added firefox bookmark: chrome://browser/content/places/places.xul&lt;br&gt;
+* Added chrome bookmarks: chrome://history, chrome://bookmarks&lt;br&gt;
+* Fixed lockscreen&lt;br&gt;
+* Fixed Google Drive icon&lt;br&gt;
+&lt;br&gt;
+Known bugs:&lt;br&gt;
+* Ethernet doesn't connect by default!</description>
+</item>
+
+<item>
+<title>2013-02-13 (0.2-5)</title>
+<link>https://github.com/justbrowsing/justbrowsing-changelog#02-5</link>
+<guid>https://github.com/justbrowsing/justbrowsing-changelog#02-5</guid>
+<pubDate>Wed, 13 Feb 2013 12:00:00 GMT</pubDate>
+<description>Changelog:&lt;br&gt;
+* Created new 24px icons&lt;br&gt;
+* Created new 16px icons&lt;br&gt;
+* Decreased panel from 48px to 24px&lt;br&gt;
+* Revamped wageclock layout&lt;br&gt;
+* Added features to wageclock&lt;br&gt;
+* Fixed buttons in timers&lt;br&gt;
+* Added keybindings to calculator&lt;br&gt;
+* Removed Aardvark from bookmarks toolbar&lt;br&gt;
+* Added [Search] Tips bookmark&lt;br&gt;
+* Added Places bookmark&lt;br&gt;
+* Added /usr/bin/firefox as file handler&lt;br&gt;
+* Added Offline QR generator to Firefox&lt;br&gt;
+&lt;br&gt;
+Known bugs:&lt;br&gt;
+* Calculator clear bug with keyboard&lt;br&gt;
+&lt;br&gt;
+Feature To-do:&lt;br&gt;
+* Set ui.allow_platform_file_picker to false in Firefox&lt;br&gt;
+* Add bookmark: http://www.google.com/insidesearch/tipstricks/basics.html&lt;br&gt;
+* Add bookmark: chrome://browser/content/places/places.xul&lt;br&gt;
+* Fix drive icon by clicking "learn more"&lt;br&gt;
+* Fix patched lockscreen</description>
+</item>
+<item>
+<title>2013-01-21 (0.2-4)</title>
+<link>https://github.com/justbrowsing/justbrowsing-changelog#02-4</link>
+<guid>https://github.com/justbrowsing/justbrowsing-changelog#02-4</guid>
+<pubDate>Mon, 21 Jan 2013 12:00:00 GMT</pubDate>
+<description>Changelog:&lt;br&gt;
+* Added vga=791 to fix glitching caused by quiet&lt;br&gt;
+* Re-added VT lockout&lt;br&gt;
+* Fixed calculator error message&lt;br&gt;
+* Renamed "Most Visited" to "Recent"&lt;br&gt;
+* Added playlist.com to bookmarks&lt;br&gt;
+* Added www.playlist.com to Chrome whitelist&lt;br&gt;
+* Implemented autosize backgrounds script&lt;br&gt;
+&lt;br&gt;
+Known bugs:&lt;br&gt;
+* x86_64 drivers not working&lt;br&gt;
+* Bootsplash distorted with Nouveau&lt;br&gt;
+&lt;br&gt;
+Feature To-do:&lt;br&gt;
+* Create x86_64 /usr/lib/modules squashfs&lt;br&gt;
+* Fix webapp icons&lt;br&gt;
+* Modify wageclock</description>
+</item>
+<item>
+<title>2013-01-20 (0.2-3)</title>
+<link>https://github.com/justbrowsing/justbrowsing-changelog#02-3</link>
+<guid>https://github.com/justbrowsing/justbrowsing-changelog#02-3</guid>
+<pubDate>Sun, 20 Jan 2013 12:00:00 GMT</pubDate>
+<description>Changelog:&lt;br&gt;
+* Generated x86_64 initrd&lt;br&gt;
+* Appended quiet splash to boot menu&lt;br&gt;
+* Boot splash now working&lt;br&gt;
+* Added 3 second timeout&lt;br&gt;
+* Fixed bootsplash logo&lt;br&gt;
+&lt;br&gt;
+Known bugs:&lt;br&gt;
+* x86_64 drivers not working&lt;br&gt;
+* Distorted boot pre-splash&lt;br&gt;
+* Calculator max digits length error incorrect&lt;br&gt;
+&lt;br&gt;
+Feature To-do:&lt;br&gt;
+* Create x86_64 /usr/lib/modules squashfs&lt;br&gt;
+* Implement new backgrounds&lt;br&gt;
+* Add playlist.com to bookmarks&lt;br&gt;
+* Fix webapp icons&lt;br&gt;
+* Modify wageclock</description>
+</item>
+<item>
+<title>2013-01-19 (0.2-2)</title>
+<link>https://github.com/justbrowsing/justbrowsing-changelog#02-2</link>
+<guid>https://github.com/justbrowsing/justbrowsing-changelog#02-2</guid>
+<pubDate>Sat, 19 Jan 2013 12:00:00 GMT</pubDate>
+<description>Changelog:&lt;br&gt;
+* Updated to latest packages&lt;br&gt;
+* Updated live tools to ARCH_201301&lt;br&gt;
+* Added x86_64 kernel&lt;br&gt;
+* Disabled VT lockout temporarily&lt;br&gt;
+* Added bootsplash&lt;br&gt;
+* Added dx to bookmarks&lt;br&gt;
+* Fixed duckduckgo icon in Firefox&lt;br&gt;
+* Added www.youtube.com to Chrome flash whitelist&lt;br&gt;
+* Enabled flashblock in Firefox via Toolbar Buttons extension&lt;br&gt;
+* Removed quickjava extension&lt;br&gt;
+* Created wallpapers and lockscreen for alternate resolutions&lt;br&gt;
+* Added package list to livecd&lt;br&gt;
+&lt;br&gt;
+Known bugs:&lt;br&gt;
+* Boot menu overlaps logo&lt;br&gt;
+* x86_64 kernel does not boot properly&lt;br&gt;
+&lt;br&gt;
+Feature To-do:&lt;br&gt;
+* Custom lock dialog&lt;br&gt;
+* Implement new backgrounds&lt;br&gt;
+* Debug kernel panics&lt;br&gt;
+* Fix webapp icons&lt;br&gt;
+* Modify wageclock</description>
+</item>
+<item>
+<title>2013-01-18 (0.2-1)</title>
+<link>https://github.com/justbrowsing/justbrowsing-changelog#02-1</link>
+<guid>https://github.com/justbrowsing/justbrowsing-changelog#02-1</guid>
+<pubDate>Fri, 18 Jan 2013 12:00:00 GMT</pubDate>
+<description>Changelog:&lt;br&gt;
+* Fixed wifi key dialog (installed: network-manager-applet-gtk2, gnome-keyring, gcr, libcap-ng)&lt;br&gt;
+* Fixed touchpad configuration (/etc/X11/xorg.d/10-synaptics.conf)&lt;br&gt;
+* Added gmail video chat plugin&lt;br&gt;
+* Increased panel from 32px icons to 48px&lt;br&gt;
+* Added i3 "secret" hotkeys&lt;br&gt;
+* Fixed i3lock hotkey&lt;br&gt;
+* Fixed calculator daisy-chain operations&lt;br&gt;
+* Fixed calculator long numbers&lt;br&gt;
+* Expanded calculator from 9 to 11 digit display&lt;br&gt;
+* Added calculator buttons: plus/minus, square root, exponent, pi constant, e constant&lt;br&gt;
+* Added finer grain timer intervals&lt;br&gt;
+* Fixed eggtimer logic&lt;br&gt;
+* Created stopwatch and egg background images for timers&lt;br&gt;
+* Fixed character 1 width in DS-Digital font with fontforge&lt;br&gt;
+&lt;br&gt;
+Known bugs:&lt;br&gt;
+* Kernel panic on plug in usb wifi card&lt;br&gt;
+* File-handlers default to Firefox&lt;br&gt;
+* Wallpaper stretched horizontally&lt;br&gt;
+* Lockscreen cut-off vertically&lt;br&gt;
+* Filesystem not hidden from user/browser (need to try sandfox again)&lt;br&gt;
+* Livecd: Boot messages are displayed&lt;br&gt;
+* Livecd: Splash screen not working&lt;br&gt;
+* Livecd: Slow bootup as filesystem uncompressed&lt;br&gt;
+* Livecd: Syslinux bootscreen is ugly&lt;br&gt;
+&lt;br&gt;
+Feature To-do:&lt;br&gt;
+* Custom lock dialog&lt;br&gt;
+* Alter wallpaper dimensions&lt;br&gt;
+* Debug kernel panics&lt;br&gt;
+* Fix webapp icons&lt;br&gt;
+* Modify wageclock&lt;br&gt;
+* Add www.youtube.com to chrome whitelist&lt;br&gt;
+* Fix firefox/chrome bookmark icons&lt;br&gt;
+* Add dealextreme to shopping bookmarks</description>
+</item>
+<item>
+<title>2013-01-15 (0.2-0)</title>
+<link>https://github.com/justbrowsing/justbrowsing-changelog#02-0</link>
+<guid>https://github.com/justbrowsing/justbrowsing-changelog#02-0</guid>
+<pubDate>Tue, 15 Jan 2013 12:00:00 GMT</pubDate>
+<description>Changelog:&lt;br&gt;
+* Updated to latest. Firefox 18/Chrome 24&lt;br&gt;
+* Added webapps: notes, calculator, timer, email, wageclock&lt;br&gt;
+* Added bookmarks to Chrome&lt;br&gt;
+* Modded lockscreen: height, mouse and other&lt;br&gt;
+* Added wbar to lockscreen&lt;br&gt;
+* Cleanup&lt;br&gt;
+&lt;br&gt;
+Known bugs:&lt;br&gt;
+* Inherits existing bugs&lt;br&gt;
+* Kernel panic on plug in usb wifi card&lt;br&gt;
+* Calculator needs substring(0,9) for small numbers&lt;br&gt;
+* Calulator needs equals() between operations&lt;br&gt;
+* Eggtimer bugs&lt;br&gt;
+* File-handlers default to Firefox&lt;br&gt;
+&lt;br&gt;
+Feature To-do:&lt;br&gt;
+* Gmail video chat plugin: google-talkplugin&lt;br&gt;
+* Touchpad changes: xf86-input-synaptics libsynaptics /etc/X11/xorg.conf.d/10-synaptics.conf&lt;br&gt;
+* "Skin" timer "app"&lt;br&gt;
+* Custom lock dialog&lt;br&gt;
+* Alter wallpaper dimensions&lt;br&gt;
+* Debug wireless issues&lt;br&gt;
+* Enable i3 WM mode toggle&lt;br&gt;
+* Fix webapp icons</description>
+</item>
+<item>
+<title>2013-01-03 (0.1-7)</title>
+<link>https://github.com/justbrowsing/justbrowsing-changelog#01-7</link>
+<guid>https://github.com/justbrowsing/justbrowsing-changelog#01-7</guid>
+<pubDate>Thu, 3 Jan 2013 12:00:00 GMT</pubDate>
+<description>Changelog:&lt;br&gt;
+* First actually working livecd&lt;br&gt;
+* Fixed chainload issue by deleting fstab&lt;br&gt;
+* Fixed firefox close button via Toolbar Buttons extension&lt;br&gt;
+* Removed ctrl+f = fullscreen keybinding in i3 config&lt;br&gt;
+* Fixed keyboard volume bindings with pulseaudio_ctl&lt;br&gt;
+&lt;br&gt;
+Known bugs:&lt;br&gt;
+* Wallpaper stretched horizontally&lt;br&gt;
+* Lockscreen cut-off vertically&lt;br&gt;
+* Touchpad clickpad enabled&lt;br&gt;
+* Touchpad two-finger scrolling enabled (prefer scroll on right)&lt;br&gt;
+* Possible Chrome browser forkbomb issue&lt;br&gt;
+* Clicking wireless network won't connect (because the WPA key dialog doesn't popup)&lt;br&gt;
+* Filesystem not hidden from user/browser (need to try sandfox again)&lt;br&gt;
+* Boot messages are displayed in livecd&lt;br&gt;
+* Splash screen not working in livecd&lt;br&gt;
+* Slow bootup as filesystem uncompressed&lt;br&gt;
+* Syslinux bootscreen is ugly&lt;br&gt;
+&lt;br&gt;
+Tested with:&lt;br&gt;
+* ATI Radeon Express 200 (radeon driver)&lt;br&gt;
+* Intel 945GMS (intel driver)&lt;br&gt;
+* Nvidia Geforce 7600 Go (nouveau driver)&lt;br&gt;
+* I-ODD livecd (55 seconds from isolinux->firefox)&lt;br&gt;
+* CD-R livecd (2 minutes 15 seconds from isolinux->firefox)&lt;br&gt;
+&lt;br&gt;
+Untested:&lt;br&gt;
+* USB boot&lt;br&gt;
+* webcam&lt;br&gt;
+* microphone</description>
+</item>
+<item>
+<title>2013-01-02 (0.1-6)</title>
+<link>https://github.com/justbrowsing/justbrowsing-changelog#01-6</link>
+<guid>https://github.com/justbrowsing/justbrowsing-changelog#01-6</guid>
+<pubDate>Wed, 2 Jan 2013 12:00:00 GMT</pubDate>
+<description>Changelog:&lt;br&gt;
+* First conversion from dev install to livecd&lt;br&gt;
+* Configuration of Firefox modified&lt;br&gt;
+* Configuration of Chrome modified&lt;br&gt;
+* Configuration of i3 tweaked&lt;br&gt;
+&lt;br&gt;
+Known bugs:&lt;br&gt;
+* "Working" 0.1-6 is just chainloading to hdd&lt;br&gt;
+* Upper-right close button doesn't close firefox, just the tab&lt;br&gt;
+* CTRL+F = fullscreen instead of find&lt;br&gt;
+* Keyboard vol+/- don't work&lt;br&gt;
+* Fallback initramfs doesn't work&lt;br&gt;
+* Possible Chrome browser forkbomb issue&lt;br&gt;
+* Clicking wireless network won't connect because the WPA key dialog doesn't popup.&lt;br&gt;
+* Filesystem not hidden from user/browser (need to try sandfox again)&lt;br&gt;
+* Boot messages aren't hidden&lt;br&gt;
+* Splash screen not working&lt;br&gt;
+* Slow bootup as filesystem uncompressed&lt;br&gt;
+* Syslinux bootscreen is ugly</description>
+</item>
+<item>
+<title>2013-01-01 (0.1-5)</title>
+<link>https://github.com/justbrowsing/justbrowsing-changelog#01-5</link>
+<guid>https://github.com/justbrowsing/justbrowsing-changelog#01-5</guid>
+<pubDate>Tue, 1 Jan 2013 12:00:00 GMT</pubDate>
+<description>Changelog:&lt;br&gt;
+* Added i3 lockscreen&lt;br&gt;
+* Browser profiles stored in RAM&lt;br&gt;
+* Disabled VTs&lt;br&gt;
+* Disabled SSH&lt;br&gt;
+* Disabled panel preferences&lt;br&gt;
+&lt;br&gt;
+Feature To-do:&lt;br&gt;
+* Sandbox browsers (sandfox not working)&lt;br&gt;
+* Shutdown in lockscreen (physical power button sends graceful shutdown though)</description>
+</item>
+<item>
+<title>2012-12-31 (0.1-4)</title>
+<link>https://github.com/justbrowsing/justbrowsing-changelog#01-4</link>
+<guid>https://github.com/justbrowsing/justbrowsing-changelog#01-4</guid>
+<pubDate>Mon, 31 Dec 2012 12:00:00 GMT</pubDate>
+<description>Changelog:&lt;br&gt;
+* Added i3 WM&lt;br&gt;
+* Added Mozilla Firefox&lt;br&gt;
+* Added Google Chrome&lt;br&gt;
+* Added adeskbar&lt;br&gt;
+&lt;br&gt;
+Feature To-do:&lt;br&gt;
+* Add lockscreen</description>
+</item>
+<item>
+<title>2012-12-30 (0.1-0)</title>
+<link>https://github.com/justbrowsing/justbrowsing-changelog#01-0</link>
+<guid>https://github.com/justbrowsing/justbrowsing-changelog#01-0</guid>
+<pubDate>Sun, 30 Dec 2012 12:00:00 GMT</pubDate>
+<description>Changelog:&lt;br&gt;
+* Tested various light-weight WMs&lt;br&gt;
+* Tested various browser addons&lt;br&gt;
+* Tested various panel docks&lt;br&gt;
+* Tested various lockscreens</description>
+</item>
+</channel>
+</rss>
