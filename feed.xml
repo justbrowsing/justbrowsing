@@ -5,8 +5,22 @@
 <title>Just Browsing Changelog</title>
 <link>http://justbrowsing.info</link>
 <description>Changelog for the JustBrowsing LiveCD project</description>
-<lastBuildDate>Fri, 29 Mar 2013 19:00:00 GMT</lastBuildDate>
+<lastBuildDate>Sun, 31 Mar 2013 20:18:10 GMT</lastBuildDate>
 <language>en-us</language>
+<item>
+<title>2013-03-31 (0.3-2)</title>
+<link>https://github.com/justbrowsing/justbrowsing-changelog#03-2</link>
+<guid>https://github.com/justbrowsing/justbrowsing-changelog#03-2</guid>
+<pubDate>Sun, 31 Mar 2013 20:18:10 GMT</pubDate>
+<description>Changelog:&lt;br&gt;
+* Revamped the github homepage&lt;br&gt;
+* Wrote a SourceForge scraper to more accurately monitor downloads&lt;br&gt;
+* Updated to latest packages&lt;br&gt;
+&lt;br&gt;
+Feature To-do:&lt;br&gt;
+* Replace buggy "Offline QR generator" addon with qr-send script&lt;br&gt;
+</description>
+</item>
 <item>
 <title>2013-03-29 (0.3-1)</title>
 <link>https://github.com/justbrowsing/justbrowsing-changelog#03-1</link>
