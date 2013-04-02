@@ -12,6 +12,7 @@ Development:
 * https://github.com/justbrowsing/justbrowsing-artwork
 * https://github.com/justbrowsing/justbrowsing-remaster
 * https://github.com/justbrowsing/justbrowsing-repo
+* https://github.com/justbrowsing/justbrowsing-changelog
 
 Configuration:
 * https://github.com/justbrowsing/justbrowsing-config-files
