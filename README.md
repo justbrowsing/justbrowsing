@@ -1,9 +1,12 @@
 justbrowsing
 ============
-* [Homepage](http://justbrowsing.info/#gh)
+Project: (2012 - 2015)
+_note_ this distro is currently inactive; contributions are welcome
+
+* [Homepage](https://justbrowsinglinux.com)
 * [Downloads](https://sourceforge.net/projects/justbrowsing/files/)
 * [Blog](http://justbrowsingcd.tumblr.com/#gh)
-* [Changelog](http://justbrowsing.info/new/#changelog) [RSS](http://justbrowsing.info/feed.xml)
+* [Changelog](https://justbrowsinglinux.com/new/#changelog) [RSS](https://justbrowsinglinux.com/feed.xml)
 * [Packages](https://aur.archlinux.org/packages/?SeB=m&K=justbrowsing)
 
 List of repositories: https://github.com/justbrowsing?tab=repositories
@@ -34,5 +37,3 @@ Web-apps:
 * [Notes](https://github.com/justbrowsing/justbrowsing-notes)
 * [Timers](https://github.com/justbrowsing/justbrowsing-timers)
 * [Wageclock](https://github.com/justbrowsing/justbrowsing-wageclock)
-
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/justbrowsing/justbrowsing/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
